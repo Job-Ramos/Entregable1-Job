@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+}
+.principal {
+  display: flex;
+  gap: 0.5em 2em;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.principal-list {
+  font-size: 1.2rem;
+  background-color: blueviolet;
+  padding: 1.5em;
+  border-radius: 0.5em;
+  color: white;
+  list-style: none;
+  display: grid;
+  gap: 0.3em;
+}
+.principal-item {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.principal-label {
+  font-weight: 700;
+}
